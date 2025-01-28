@@ -2,7 +2,7 @@
 // presentation/index.php
 
 // Configuration de l'URL du serveur applicatif
-$appServerUrl = 'http://localhost:8080/app/readMessages.php';
+$appServerUrl = 'http://10.0.2.4:8080/app/lectureDB.php';
 
 // Récupération des messages depuis le serveur applicatif
 $response = file_get_contents($appServerUrl);
