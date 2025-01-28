@@ -2,10 +2,10 @@
 // app/readMessages.php
 
 // Configuration de la base de données
-$dbHost = 'localhost';
-$dbName = 'messages_db';
-$dbUser = 'root';
-$dbPass = '';
+$dbHost = 'hetic.mysql.database.azure.com';
+$dbName = 'hetic';
+$dbUser = 'azureuser';
+$dbPass = '@bcdefgh!2025';
 
 try {
     // Connexion à la base de données
